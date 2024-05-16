@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kabelo Ratshefola Portfolio</title>
+
+    <!--icons from boxicons-->
+ <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!--header-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#objective">Career objective</a>
+            <a href="contact">Contact Me</a>
+        </nav>
+
+        <div class="bx bxs-devices" id="darkMode-icon"></div>
+    </header>
+
+    <!--Home page setup and design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome to</h3>
+            <h1>Kabelo's website</h1>
+            <p>Today I'll walk you through my portfolio website, where i'll showcase my coding abilities, my strengths, interests and hobbies all in one place. Please enjoy your time spent and please do contact me if there anything you need clarification on!</p>
+       
+            <div class="contact-info">
+                <a href="#"><i class='bx bxs-phone-call'></i></a>
+                <a href="#"><i class='bx bxs-envelope' ></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square' ></i></a>
+                <a href="#"><i class='bx bxl-whatsapp-square' ></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bxs-terminal' ></i>
+                    <h3>System administrator</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bxs-data' ></i>
+                    <h3>Data Analyst</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-code-block' ></i>
+                    <h3>Developer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-scatter-chart' ></i>
+                    <h3>Economist</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="webpics\3.png" alt="">
+        </div>
+    </section>
+
+    <!--About page-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="webpics/2.png" alt="">
+        </div>
+
+        <div class="about">
+            <h2 class="heading">About <span>Me </span></h2>
+            <h3>  Hey there! Let us unfold more in this about me section</h3>  
+            <p> In this section, we will unconver more details about 
+                this young lad from the streets of Mafikeng, North West Province. In this about me section, you will also find a my brief academic journey and more about my sporting life.
+                 Take all the time you need to get to know me better. Enjoy!</p> 
+            <a href="#" class="btn">Read more</a>
+        </div>
+    </section>
+
+    <!--career objective-->
+    <section class="objective" id="'objective">
+        <h2 class="heading">My </h2> <span>Career Objective</span>
+         
+        <div class="objective-container">
+            <div class="objective-box">
+                <i class='bx bx-broadcast'></i>
+                <h3>System Administrator</h3>
+                <p>As a Computer Science graduate, with strong profeciency in analytical thinking and keen interest in working with
+                    linux and RPA, I feel best suited for roles in system administration. I have no shortage of learning abilities.
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="objective-box">
+                <i class='bx bxs-objects-horizontal-left'></i>
+                <h3>Data Analyst</h3>
+                <p>Becaues of my analytical thinking and problem-solving skills, accompanied by my coursework, i've been equipped with a strong understanding of programming languages such as R, Microsoft Excel, SQL, database management, and statistical analysis methods, all of which are essential for a data analyst role.
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="objective-box">
+                <i class='bx bxl-java'></i>
+                <h3>Developer</h3>
+                <p> I offer a solid foundation in programming languages such as Java and Python, HTML, CSS, Javascript, C#, algorithms, and software development principles gained through my academic studies. My coursework has equipped me with the skills necessary to design, develop, and debug software applications. Additionally, my ability to quickly learn new technologies and my passion for problem-solving make me well-suited for a software developer role.
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+
+            <div class="objective-box">
+                <i class='bx bxs-chart'></i>
+                <h3>Economist</h3>
+                <p>As a recent graduate with a degree in Computer Science and Economics, I offer a unique blend of analytical skills, strong quantitative skills and an interdisciplinary knowledge. My coursework has provided me with a strong foundation in economic theory, statistical analysis, and computational methods, which are crucial for understanding complex economic phenomena and conducting data-driven research.
+                    Furthermore, my interdisciplinary background demonstrates my ability to bridge the gap between theory and practice, making me well-suited for an economist role where innovative solutions are valued.
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div>
+    </section>
+
+    <!--contact me -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span> Me!</span></h2>
+
+        <form actions="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full name:">
+                <input type="text" placeholder="E-mail:">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Phone Number">
+                <input type="text" placeholder="Email subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your message"></textarea>
+            <input type="submit" values="Send message" class="btn">
+        </form>
+    </section>
+
+    <!--Javascript-->
+    <script src="jscript.js"></script>
+
+</body>
